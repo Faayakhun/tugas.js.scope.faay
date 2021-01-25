@@ -1,0 +1,19 @@
+li {
+	display: inline;
+}
+/* supaya navigasinya di kanan */
+nav#main li {
+	float: right;
+	margin-right: 20px;
+}
+
+.centering {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: cursive;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
